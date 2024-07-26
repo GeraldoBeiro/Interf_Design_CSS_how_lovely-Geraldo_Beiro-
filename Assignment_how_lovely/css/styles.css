@@ -1,0 +1,198 @@
+header {
+  align-items: center; 
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.391); 
+  background: linear-gradient(
+    to bottom,
+    rgb(231, 193, 218),
+    rgba(153, 53, 110, 0.931)
+  ); /*apply gradient to header*/
+}
+
+header .logo:hover {
+  transition: 0.2s; /*add transition effect to logo*/
+  transform: scale(1.1); /*increase size of logo on hover*/
+  cursor: pointer; /*change cursor to pointer on hover*/
+}
+
+body {
+  background: linear-gradient(to right, rgba(207, 180, 195, 0.931), #ffffff, rgba(207, 180, 195, 0.931)); /* Adjust colors as needed */
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%; /* here I can adjust the height if I need it */
+  color: rgb(209, 145, 145);
+  font-size: 20px;
+}
+
+.menu ul li {
+  gap: 20px;
+}
+
+.menu-search {
+  margin-left: auto;
+}
+
+.menu li {
+  margin: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #f0f0f0; /* Background color of the boxes */
+  border-radius: 10px; /* Rounded corners */
+  text-decoration: none;
+  color: rgb(169, 70, 207); /* Text color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for a nice effect */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transitions for hover effect */
+}
+
+.menu a:hover {
+  background-color: rgb(217, 136, 228); /* Change background color on hover */
+  color: #e0c4c4; /* Change text color on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Darken shadow on hover */
+}
+
+.menu a.active {
+  background-color: rgb(209, 145, 145); /* Background color for active item */
+  color: #fff; /* Text color for active item */
+}
+
+li {
+  display: inline-block;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Adjust this if needed */
+  color: rgb(209, 145, 145);
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.pageIndexStyle {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  flex-direction: row; /* Change to row to place elements side by side */
+  padding: 20px;
+  max-width: 1200px; /* Adjust the width as needed */
+  margin: auto;
+}
+
+h2 {
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and transform */
+}
+
+h2:hover {
+  color: #ff6347; /* Change color on hover (example: tomato color) */
+  transform: scale(1.1); /* Slightly enlarge the text on hover */
+}
+
+h1 {
+  transition: color 0.3s ease-out, transform 0.3s ease; /* Smooth transition for color and transform */
+}
+
+h1:hover {
+  color: #ff6347; /* Change color on hover (example: tomato color) */
+  transform: scale(1.2); /* Slightly enlarge the text on hover */
+}
+
+.main-content {
+  flex: 1;
+  max-width: 800px; /* Ensure the main content doesn't grow too wide */
+  padding: 20px;
+}
+
+.contact_container {
+  flex: 0 0 300px; /* Fixed width for the contact container */
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px; /* Space between main content and contact container */
+  padding: 20px;
+  background-color: (207, 180, 195, 0.931); /* Add background color for better visibility */
+}
+
+/* THE FOLLOWING CODE AIMS TO ALIGN THE ITEMS IN THE TEX BOX FOR CONTACT */
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 3px;
+  font-weight: bold;
+  font-size: 0.9em; /* Reduced font size */
+}
+
+form input,
+form textarea {
+  margin-bottom: 10px;
+  padding: 5px; /* Reduced padding */
+  font-size: 0.9em; /* Reduced font size */
+  border: 1px solid #ccc;
+  border-radius: 3px; /* Reduced border radius */
+  width: 100%;
+}
+
+form input[type="submit"] {
+  width: 412px;
+  background-color: #e4cdcd;
+  border: 1px solid #5a1f1f;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  padding: 5px 10px; /* Adjusted padding for submit button */
+  font-size: 0.9em; /* Reduced font size */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Added shadow */
+}
+
+form input[type="submit"]:hover {
+  background-color: #f0dcbb;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.right {
+  width: 100%;
+  max-width: 400px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+form label,
+form input,
+form textarea {
+  width: 100%;
+}
+
+form label {
+  display: block;
+}
+
+form input,
+form textarea {
+  display: block;
+}
+
+
+  
